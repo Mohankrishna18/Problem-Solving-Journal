@@ -7,7 +7,6 @@ class Problem1{
         System.out.println("Constructor executed.");
     }
     public static void main(String[] args) {
-        
         Problem1 d1 = new Problem1();
          Problem1 d2 = new Problem1();
     }
