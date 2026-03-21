@@ -23,3 +23,13 @@ Call sound() and observe the output.
 
 Goal:  
 Practice inheritance and polymorphism, and understand how overridden methods behave with parent references.
+
+
+Q4:Given a list of integers: [10, 15, 20, 25, 30, 35]  
+Use Java Streams to:
+
+Filter even numbers.
+
+Multiply each by 2.
+
+Collect them into a new list and print.
