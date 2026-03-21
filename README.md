@@ -7,3 +7,19 @@ Use Java Streams to:
 Filter strings that start with "a".
 Convert them to uppercase.
 Collect them into a new list and print.
+
+
+Q3:Create two classes:
+
+Animal with a method sound() that prints "Animal makes a sound".
+
+Dog that extends Animal and overrides sound() to print "Dog barks".
+
+In the main method:
+
+Create an Animal reference pointing to a Dog object.
+
+Call sound() and observe the output.
+
+Goal:  
+Practice inheritance and polymorphism, and understand how overridden methods behave with parent references.
