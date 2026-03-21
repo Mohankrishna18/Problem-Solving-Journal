@@ -9,7 +9,7 @@ Convert them to uppercase.
 Collect them into a new list and print.
 
 
-Q3:Create two classes:
+Q3:   Create two classes:
 
 Animal with a method sound() that prints "Animal makes a sound".
 
