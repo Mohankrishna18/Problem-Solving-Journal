@@ -1,5 +1,7 @@
 
 -----------------------------Day1:------------------------------
+
+
 Q1: Write a Java program with a class Demo that has: 
 Static block, constructor, and main method create two objects of Demo.
 
@@ -49,6 +51,8 @@ Implemented a Rectangle class with both no-argument and parameterized constructo
 
 Practiced object initialization and method usage (area()).
 
+--------------
+
 Java Streams – Sorting
 
 Sorted a list of integers using Streams.
@@ -67,11 +71,16 @@ Created an abstract Shape class with subclasses Circle and Rectangle.
 
 Practiced abstraction and inheritance.
 
+-----------------
+
+
 Java Streams – Distinct & Count
 
 Removed duplicates from a list using Streams.
 
 Counted unique elements and printed both count and distinct list.
+
+----------------------------
 
 DSA – Array Basics
 
