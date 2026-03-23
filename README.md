@@ -5,6 +5,8 @@
 Q1: Write a Java program with a class Demo that has: 
 Static block, constructor, and main method create two objects of Demo.
 
+--------------------------------------------------
+
 
 Q2: Given a list of strings: ["apple", "banana", "apricot", "blueberry", "avocado"]  
 Use Java Streams to:
@@ -30,6 +32,8 @@ Call sound() and observe the output.
 
 Goal:  
 Practice inheritance and polymorphism, and understand how overridden methods behave with parent references.
+
+-------------------------------------
 
 
 Q4:Given a list of integers: [10, 15, 20, 25, 30, 35]  
