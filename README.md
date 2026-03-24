@@ -91,3 +91,35 @@ DSA – Array Basics
 Traversed an array to find maximum and minimum values without built-in functions.
 
 Practiced fundamental array operations and algorithmic thinking.
+
+-------------------
+
+------------------------   Day 5 -----------
+
+Problems Solved:
+
+1) Java – Interfaces
+
+Created an interface Vehicle with method start().
+
+Implemented Car and Bike classes that override start().
+
+Practiced interface implementation and polymorphism.
+
+-------------------
+
+2) Java Streams – Reduce
+
+Used reduce() to calculate the sum of integers [2, 4, 6, 8, 10].
+
+Learned functional reduction in Streams.
+
+---------
+
+3) DSA – Linear Search
+
+Implemented linear search on an array [10, 20, 30, 40, 50].
+
+Returned index if found, otherwise "Not Found".
+
+Practiced basic searching algorithm.

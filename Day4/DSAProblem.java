@@ -1,6 +1,6 @@
 package Day4;
 
-public class Problem3 {
+public class DSAProblem {
     public static void main(String[] args){
         int[]  arr = {5, 2, 9, 1, 5, 6};
 
