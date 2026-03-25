@@ -7,7 +7,6 @@ Static block, constructor, and main method create two objects of Demo.
 
 --------------------------------------------------
 
-
 2.  Given a list of strings: ["apple", "banana", "apricot", "blueberry", "avocado"]  
 Use Java Streams to:
 Filter strings that start with "a".
