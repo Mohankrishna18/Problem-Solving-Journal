@@ -1,155 +1,125 @@
+# 🚀 Java & DSA Daily Practice Log  
 
------------------------------Day1:------------------------------
+A structured journey of solving problems in **Java, Streams, and DSA** — documented day by day for clarity, consistency, and recruiter visibility.  
 
+![Coding](https://media.giphy.com/media/L1R1tvI9svkIWwpVYr/giphy.gif)
 
-1. Write a Java program with a class Demo that has: 
-Static block, constructor, and main method create two objects of Demo.
+---
 
---------------------------------------------------
+## 📅 Day 1  
 
-2.  Given a list of strings: ["apple", "banana", "apricot", "blueberry", "avocado"]  
-Use Java Streams to:
-Filter strings that start with "a".
-Convert them to uppercase.
-Collect them into a new list and print.
+### 🔹 Problem 1: Java – Class Demo  
+- Implemented a `Demo` class with:  
+  - **Static block**  
+  - **Constructor**  
+  - **Main method**  
+- Created **two objects** of `Demo`.  
 
+### 🔹 Problem 2: Java Streams – Filter & Uppercase  
+- Given list: `["apple", "banana", "apricot", "blueberry", "avocado"]`  
+- Used **Streams** to:  
+  - Filter strings starting with `"a"`  
+  - Convert to **uppercase**  
+  - Collect into a new list & print  
 
-----------------------------------   Day2 -------------------------------
+---
 
+## 📅 Day 2  
 
-1.  Create two classes:
+### 🔹 Problem 1: Inheritance & Polymorphism  
+- Created classes:  
+  - `Animal` → `sound()` prints *"Animal makes a sound"*  
+  - `Dog` extends `Animal` → overrides `sound()` to print *"Dog barks"*  
+- In `main`:  
+  - `Animal` reference → `Dog` object  
+  - Observed **method overriding behavior**  
 
-Animal with a method sound() that prints "Animal makes a sound".
+**Goal:** Practice inheritance, polymorphism, and overridden methods.  
 
-Dog that extends Animal and overrides sound() to print "Dog barks".
+### 🔹 Problem 2: Java Streams – Even Numbers  
+- Given list: `[10, 15, 20, 25, 30, 35]`  
+- Used **Streams** to:  
+  - Filter **even numbers**  
+  - Multiply each by **2**  
+  - Collect into a new list & print  
 
-In the main method:
+---
 
-Create an Animal reference pointing to a Dog object.
+## 📅 Day 3  
 
-Call sound() and observe the output.
+### 🔹 Problem 1: Constructor Overloading  
+- Implemented `Rectangle` class with:  
+  - **No-argument constructor**  
+  - **Parameterized constructor**  
+- Practiced **object initialization** & `area()` method.  
 
-Goal:  
-Practice inheritance and polymorphism, and understand how overridden methods behave with parent references.
+### 🔹 Problem 2: Java Streams – Sorting  
+- Sorted a list of integers using **Streams**.  
+- Collected sorted results into a new list.  
 
--------------------------------------
+---
 
+## 📅 Day 4  
 
-2. Given a list of integers: [10, 15, 20, 25, 30, 35]  
-Use Java Streams to:
+### 🔹 Problem 1: Abstract Class  
+- Created abstract `Shape` class with subclasses:  
+  - `Circle`  
+  - `Rectangle`  
+- Practiced **abstraction & inheritance**.  
 
-Filter even numbers.
+### 🔹 Problem 2: Java Streams – Distinct & Count  
+- Removed duplicates using **Streams**.  
+- Counted unique elements & printed both **count** and **distinct list**.  
 
-Multiply each by 2.
+### 🔹 Problem 3: DSA – Array Basics  
+- Traversed array to find **max & min values** without built-in functions.  
+- Practiced **fundamental array operations**.  
 
-Collect them into a new list and print.
+---
 
---------------------------------------- Day 3 -------------------------------------
+## 📅 Day 5  
 
-Problems Solved:
+### 🔹 Problem 1: Interfaces  
+- Created `Vehicle` interface → method `start()`.  
+- Implemented `Car` & `Bike` classes overriding `start()`.  
+- Practiced **interface implementation & polymorphism**.  
 
-1. Java – Constructor Overloading
+### 🔹 Problem 2: Java Streams – Reduce  
+- Used `reduce()` to calculate sum of `[2, 4, 6, 8, 10]`.  
+- Learned **functional reduction**.  
 
-Implemented a Rectangle class with both no-argument and parameterized constructors.
+### 🔹 Problem 3: DSA – Linear Search  
+- Implemented **linear search** on `[10, 20, 30, 40, 50]`.  
+- Returned index if found, else `"Not Found"`.  
 
-Practiced object initialization and method usage (area()).
+---
 
---------------
+## 📅 Day 6  
 
-2. Java Streams – Sorting
+### 🔹 Problem 1: Exception Handling  
+- Wrote program to divide two integers.  
+- Used **try-catch** to handle division by zero.  
 
-Sorted a list of integers using Streams.
+### 🔹 Problem 2: Java Streams – Grouping  
+- Grouped strings by their **first letter** using `Collectors.groupingBy()`.  
+- Produced a **map** of grouped results.  
 
-Learned how to collect sorted results into a new list.
+### 🔹 Problem 3: DSA – Binary Search  
+- Implemented **binary search** on `[10, 20, 30, 40, 50, 60]`.  
+- Returned index if found, else `"Not Found"`.  
+- Compared efficiency with **linear search**.  
 
+---
 
--------------------------------------------- Day 4  ---------------------------------------------
+# ✨ Key Takeaways  
+![Progress](https://progress-bar.dev/6/?title=Days%20Completed&width=300)
 
+- Practiced **Java OOP concepts**: constructors, inheritance, polymorphism, abstraction, interfaces.  
+- Strengthened **Java Streams**: filtering, mapping, sorting, distinct, reduce, grouping.  
+- Built **DSA foundation**: arrays, linear search, binary search.  
+- Improved **problem-solving consistency** with daily logs.  
 
-Problems Solved:
+---
 
-1. Java – Abstract Class
+![Divider](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-Created an abstract Shape class with subclasses Circle and Rectangle.
-
-Practiced abstraction and inheritance.
-
------------------
-
-
-2. Java Streams – Distinct & Count
-
-Removed duplicates from a list using Streams.
-
-Counted unique elements and printed both count and distinct list.
-
-----------------------------
-
-3. DSA – Array Basics
-
-Traversed an array to find maximum and minimum values without built-in functions.
-
-Practiced fundamental array operations and algorithmic thinking.
-
--------------------
-
-------------------------   Day 5 -----------
-
-Problems Solved:
-
-1. Java – Interfaces
-
-Created an interface Vehicle with method start().
-
-Implemented Car and Bike classes that override start().
-
-Practiced interface implementation and polymorphism.
-
--------------------
-
-2. Java Streams – Reduce
-
-Used reduce() to calculate the sum of integers [2, 4, 6, 8, 10].
-
-Learned functional reduction in Streams.
-
----------
-
-3. DSA – Linear Search
-
-Implemented linear search on an array [10, 20, 30, 40, 50].
-
-Returned index if found, otherwise "Not Found".
-
-Practiced basic searching algorithm.
-
--------------
-
------------------------------------ Day 6 ---------
-Problems Solved:
-
-1. Java – Exception Handling
-
-Wrote a program to divide two integers.
-
-Used try-catch to handle division by zero.
-
-Practiced robust error handling.
-
--
-
-2. Java Streams – Grouping
-
-Grouped a list of strings by their first letter using Streams.
-
-Learned how to use Collectors.groupingBy() to produce a map.
-
--- testing
-
-3. DSA – Binary Search
-
-Implemented binary search on a sorted array [10, 20, 30, 40, 50, 60].
-
-Returned index if found, otherwise "Not Found".
-
-Practiced efficient searching compared to linear search.
