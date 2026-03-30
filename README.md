@@ -109,6 +109,72 @@ A structured journey of solving problems in **Java, Streams, and DSA** — docum
 - Returned index if found, else `"Not Found"`.  
 - Compared efficiency with **linear search**.  
 
+## 📅 Day 7
+
+### 🔹 Problem 1: Method Overloading
+- Create a class Calculator with overloaded methods add():
+- add(int a, int b) → returns sum of two integers.
+- add(double a, double b) → returns sum of two doubles.
+- add(int a, int b, int c) → returns sum of three integers.
+
+### 🔹 Problem 2: Streams Mapping
+- Given a list of integers: [1, 2, 3, 4, 5]  
+- Use Streams to:
+- Square each number.
+- Collect results into a new list.
+
+### 🔹 Problem 3: Binary Search (Recursive)
+
+## 📅 Day 8
+
+### 🔹 Problem 1: Abstract Class & Polymorphism
+- Create an abstract class Employee with:
+- Abstract method calculateSalary().
+- Subclasses FullTimeEmployee and PartTimeEmployee that implement calculateSalary() differently.
+
+### 🔹 Problem 2: Streams Collectors (Joining)
+- Given a list of strings: ["Java", "Python", "C++", "Go"]  
+- Use Streams to join them into a single string separated by commas.
+
+### 🔹 Problem 3: Bubble Sort
+
+## 📅 Day 9
+
+### 🔹 Problem 1: Abstract Class & Polymorphism
+- Create a class BankAccount with:
+- Private fields: accountNumber, balance.
+- Public methods: deposit(double amount), withdraw(double amount), and getBalance().
+- Ensure withdrawal doesn’t allow balance to go negative.
+
+### 🔹 Problem 2: Streams Filtering & Sorting
+- Given a list of strings: ["apple", "banana", "apricot", "blueberry", "avocado", "blackberry"]  
+- Use Streams to:
+- Filter strings that contain "berry".
+- Sort them alphabetically.
+
+### 🔹 Problem 3: Selection Sort
+
+## 📅 Day 10
+
+### 🔹 Problem 1: Static vs Instance Methods
+- Create a class BankAccount with:
+- Private fields: accountNumber, balance.
+- Public methods: deposit(double amount), withdraw(double amount), and getBalance().
+- Ensure withdrawal doesn’t allow balance to go negative.
+
+### 🔹 Problem 2: Streams Max/Min
+
+### 🔹 Problem 3: Insertion Sort
+
+## 📅 Day 11
+
+### 🔹 Problem 1: Final Keyword
+- Create a class Constants with a final variable PI = 3.14159
+
+### 🔹 Problem 2: Streams AnyMatch/AllMatch
+
+### 🔹 Problem 3: Merge Sort
+
 ---
 
 # ✨ Key Takeaways  
