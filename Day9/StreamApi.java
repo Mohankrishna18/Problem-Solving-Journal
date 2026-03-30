@@ -1,5 +1,3 @@
-package Day9;
-
 import java.util.stream.*;
 import java.util.*;
 

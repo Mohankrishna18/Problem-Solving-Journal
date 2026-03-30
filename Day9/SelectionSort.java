@@ -1,6 +1,6 @@
-package Day9;
 
-public class DSAProblem {
+
+public class SelectionSort {
 
     public static void selectionSort(int[] arr){
         int len = arr.length;
