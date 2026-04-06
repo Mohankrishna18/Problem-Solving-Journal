@@ -177,6 +177,9 @@ A structured journey of solving problems in **Java, Streams, and DSA** — docum
 
 ---
 
+
+
+
 # ✨ Key Takeaways  
 ![Progress](https://progress-bar.dev/6/?title=Days%20Completed&width=300)
 
