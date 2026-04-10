@@ -1,5 +1,3 @@
-package Day17;
-
 
 import java.util.*;
 public class StreamApi {
